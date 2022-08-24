@@ -4,7 +4,7 @@ build:
   os: "ubuntu-20.04"
   tools:
     python:
-    # Install changeit
+      version: 3.8
       install:
         - method: pip
           path: .
